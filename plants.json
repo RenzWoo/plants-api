@@ -1,0 +1,1544 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Venus Flytrap",
+      "scientific_name": "Dionaea muscipula",
+      "types": ["Carnivorous", "Perennial"],
+      "habitat": "Bog",
+      "stats": {
+        "height_cm": 15,
+        "spread_cm": 15,
+        "growth_rate": "Slow",
+        "lifespan_years": 20,
+        "water_needs": "High",
+        "sunlight": "Full Sun",
+        "toxicity": 2,
+        "rarity": 7
+      },
+      "regions": ["Southeastern United States"],
+      "care_level": "Advanced",
+      "special_traits": [
+        "Snap traps",
+        "Insect digestion",
+        "Trigger hairs"
+      ],
+      "companion_plants": ["Sundew", "Pitcher Plant"],
+      "pests": ["Aphids", "Spider Mites"],
+      "propagation": ["Seed", "Division", "Leaf cutting"],
+      "bloom": {
+        "season": "Spring",
+        "color": "White",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Giant Venus Flytrap"
+      },
+      "soil_type": ["Sphagnum moss", "Perlite mix"],
+      "temperature_range": {
+        "min_celsius": 5,
+        "max_celsius": 35
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Vulnerable"
+    },
+    {
+      "id": 2,
+      "name": "Monstera Deliciosa",
+      "scientific_name": "Monstera deliciosa",
+      "types": ["Tropical", "Climbing"],
+      "habitat": "Rainforest",
+      "stats": {
+        "height_cm": 300,
+        "spread_cm": 200,
+        "growth_rate": "Fast",
+        "lifespan_years": 40,
+        "water_needs": "Medium",
+        "sunlight": "Indirect Bright",
+        "toxicity": 5,
+        "rarity": 3
+      },
+      "regions": ["Central America", "South America"],
+      "care_level": "Beginner",
+      "special_traits": [
+        "Fenestrated leaves",
+        "Aerial roots",
+        "Air purification"
+      ],
+      "companion_plants": ["Philodendron", "Pothos", "Peace Lily"],
+      "pests": ["Mealybugs", "Scale", "Thrips"],
+      "propagation": ["Stem cutting", "Air layering"],
+      "bloom": {
+        "season": "Summer",
+        "color": "White/Cream",
+        "fragrance": "Sweet"
+      },
+      "evolution": {
+        "pre": "Monstera Adansonii",
+        "next": null
+      },
+      "soil_type": ["Well-draining potting mix", "Peat-based"],
+      "temperature_range": {
+        "min_celsius": 18,
+        "max_celsius": 30
+      },
+      "edible": true,
+      "medicinal": false,
+      "conservation_status": "Least Concern"
+    },
+    {
+      "id": 3,
+      "name": "Lavender",
+      "scientific_name": "Lavandula angustifolia",
+      "types": ["Herb", "Perennial"],
+      "habitat": "Mediterranean",
+      "stats": {
+        "height_cm": 90,
+        "spread_cm": 90,
+        "growth_rate": "Moderate",
+        "lifespan_years": 15,
+        "water_needs": "Low",
+        "sunlight": "Full Sun",
+        "toxicity": 0,
+        "rarity": 1
+      },
+      "regions": ["Mediterranean", "Europe", "Asia"],
+      "care_level": "Easy",
+      "special_traits": [
+        "Aromatic",
+        "Drought tolerant",
+        "Pollinator magnet"
+      ],
+      "companion_plants": ["Roses", "Sage", "Echinacea"],
+      "pests": ["Whitefly", "Root rot (overwatering)"],
+      "propagation": ["Seed", "Stem cutting", "Division"],
+      "bloom": {
+        "season": "Summer",
+        "color": "Purple",
+        "fragrance": "Strong floral"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Lavender Field"
+      },
+      "soil_type": ["Sandy", "Well-draining", "Alkaline"],
+      "temperature_range": {
+        "min_celsius": -15,
+        "max_celsius": 38
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 4,
+      "name": "Corpse Flower",
+      "scientific_name": "Amorphophallus titanum",
+      "types": ["Tropical", "Rare"],
+      "habitat": "Rainforest",
+      "stats": {
+        "height_cm": 300,
+        "spread_cm": 200,
+        "growth_rate": "Slow",
+        "lifespan_years": 40,
+        "water_needs": "High",
+        "sunlight": "Indirect",
+        "toxicity": 0,
+        "rarity": 10
+      },
+      "regions": ["Sumatra", "Indonesia"],
+      "care_level": "Expert",
+      "special_traits": [
+        "World's largest flower",
+        "Rotting flesh smell",
+        "Blooms every 7-10 years"
+      ],
+      "companion_plants": ["Ferns", "Orchids"],
+      "pests": ["Fungus gnats", "Root rot"],
+      "propagation": ["Corm division", "Tissue culture"],
+      "bloom": {
+        "season": "Rare",
+        "color": "Maroon/Purple",
+        "fragrance": "Rotting meat"
+      },
+      "evolution": {
+        "pre": "Titan Arum Juvenile",
+        "next": null
+      },
+      "soil_type": ["Rich organic", "Well-draining"],
+      "temperature_range": {
+        "min_celsius": 22,
+        "max_celsius": 35
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Endangered"
+    },
+    {
+      "id": 5,
+      "name": "Mint",
+      "scientific_name": "Mentha spicata",
+      "types": ["Herb", "Invasive"],
+      "habitat": "Temperate",
+      "stats": {
+        "height_cm": 60,
+        "spread_cm": 90,
+        "growth_rate": "Aggressive",
+        "lifespan_years": 10,
+        "water_needs": "Medium",
+        "sunlight": "Partial Shade",
+        "toxicity": 0,
+        "rarity": 1
+      },
+      "regions": ["Europe", "Asia", "North America"],
+      "care_level": "Beginner",
+      "special_traits": [
+        "Rapid spreading",
+        "Natural pest repellent",
+        "Invasive rhizomes"
+      ],
+      "companion_plants": ["Tomatoes", "Cabbage", "None (best isolated)"],
+      "pests": ["Aphids", "Powdery mildew"],
+      "propagation": ["Stem cutting", "Division", "Seed"],
+      "bloom": {
+        "season": "Summer",
+        "color": "White/Lavender",
+        "fragrance": "Strong mint"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Chocolate Mint"
+      },
+      "soil_type": ["Moist", "Rich", "Well-draining"],
+      "temperature_range": {
+        "min_celsius": -30,
+        "max_celsius": 35
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 6,
+      "name": "Cactus",
+      "scientific_name": "Carnegiea gigantea",
+      "types": ["Succulent", "Desert"],
+      "habitat": "Desert",
+      "stats": {
+        "height_cm": 1200,
+        "spread_cm": 90,
+        "growth_rate": "Very Slow",
+        "lifespan_years": 200,
+        "water_needs": "Very Low",
+        "sunlight": "Full Sun",
+        "toxicity": 0,
+        "rarity": 4
+      },
+      "regions": ["Southwestern United States", "Northern Mexico"],
+      "care_level": "Beginner",
+      "special_traits": [
+        "Water storage in stem",
+        "Nocturnal photosynthesis",
+        "Supports desert ecosystem"
+      ],
+      "companion_plants": ["Agave", "Prickly Pear", "Barrel Cactus"],
+      "pests": ["Scale insects", "Mealybugs"],
+      "propagation": ["Seed", "Cutting"],
+      "bloom": {
+        "season": "Late Spring",
+        "color": "White",
+        "fragrance": "Mild sweet"
+      },
+      "evolution": {
+        "pre": "Small Saguaro",
+        "next": "Ancient Saguaro"
+      },
+      "soil_type": ["Sandy", "Rocky", "Well-draining"],
+      "temperature_range": {
+        "min_celsius": -10,
+        "max_celsius": 50
+      },
+      "edible": true,
+      "medicinal": false,
+      "conservation_status": "Least Concern"
+    },
+    {
+      "id": 7,
+      "name": "Bamboo",
+      "scientific_name": "Phyllostachys edulis",
+      "types": ["Grass", "Giant"],
+      "habitat": "Temperate Forest",
+      "stats": {
+        "height_cm": 2500,
+        "spread_cm": 500,
+        "growth_rate": "Extreme Fast",
+        "lifespan_years": 80,
+        "water_needs": "High",
+        "sunlight": "Partial Sun",
+        "toxicity": 0,
+        "rarity": 2
+      },
+      "regions": ["East Asia", "Southeast Asia"],
+      "care_level": "Intermediate (controlling spread)",
+      "special_traits": [
+        "Fastest growing plant",
+        "Running rhizomes",
+        "Natural building material"
+      ],
+      "companion_plants": ["Japanese Maple", "Ferns"],
+      "pests": ["Bamboo mites", "Bamboo borers"],
+      "propagation": ["Rhizome division", "Culm cutting"],
+      "bloom": {
+        "season": "Rare (every 60-120 years)",
+        "color": "Pale green",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": "Bamboo Shoot",
+        "next": "Bamboo Forest"
+      },
+      "soil_type": ["Rich", "Loamy", "Well-draining"],
+      "temperature_range": {
+        "min_celsius": -20,
+        "max_celsius": 40
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 8,
+      "name": "Ghost Orchid",
+      "scientific_name": "Dendrophylax lindenii",
+      "types": ["Orchid", "Epiphyte"],
+      "habitat": "Swamp",
+      "stats": {
+        "height_cm": 15,
+        "spread_cm": 20,
+        "growth_rate": "Very Slow",
+        "lifespan_years": 25,
+        "water_needs": "High (atmospheric)",
+        "sunlight": "Deep Shade",
+        "toxicity": 0,
+        "rarity": 10
+      },
+      "regions": ["Florida", "Cuba", "Bahamas"],
+      "care_level": "Expert",
+      "special_traits": [
+        "Leafless photosynthesis",
+        "Nocturnal pollination",
+        "Ghostly appearance"
+      ],
+      "companion_plants": ["Spanish Moss", "Pond Apple"],
+      "pests": ["Snails", "Fungal rot"],
+      "propagation": ["Seed (requires specific fungus)", "Tissue culture"],
+      "bloom": {
+        "season": "Summer",
+        "color": "White",
+        "fragrance": "Sweet, night-blooming"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Super Bloom Orchid"
+      },
+      "soil_type": ["None (grows on bark)", "Humid air"],
+      "temperature_range": {
+        "min_celsius": 20,
+        "max_celsius": 32
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Endangered"
+    },
+    {
+      "id": 9,
+      "name": "Aloe Vera",
+      "scientific_name": "Aloe barbadensis miller",
+      "types": ["Succulent", "Medicinal"],
+      "habitat": "Arid",
+      "stats": {
+        "height_cm": 60,
+        "spread_cm": 90,
+        "growth_rate": "Moderate",
+        "lifespan_years": 12,
+        "water_needs": "Low",
+        "sunlight": "Bright Indirect",
+        "toxicity": 2,
+        "rarity": 1
+      },
+      "regions": ["Arabian Peninsula", "Mediterranean", "Global"],
+      "care_level": "Beginner",
+      "special_traits": [
+        "Gel-filled leaves",
+        "Wound healing",
+        "Air purification"
+      ],
+      "companion_plants": ["Haworthia", "Echeveria", "Snake Plant"],
+      "pests": ["Mealybugs", "Scale", "Root rot"],
+      "propagation": ["Pup division", "Leaf cutting"],
+      "bloom": {
+        "season": "Summer",
+        "color": "Yellow/Orange",
+        "fragrance": "Mild"
+      },
+      "evolution": {
+        "pre": "Aloe Pup",
+        "next": "Giant Aloe"
+      },
+      "soil_type": ["Cactus mix", "Sandy loam"],
+      "temperature_range": {
+        "min_celsius": 10,
+        "max_celsius": 40
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 10,
+      "name": "Bonsai Tree",
+      "scientific_name": "Various species",
+      "types": ["Tree", "Artistic"],
+      "habitat": "Cultivated",
+      "stats": {
+        "height_cm": 100,
+        "spread_cm": 60,
+        "growth_rate": "Controlled Slow",
+        "lifespan_years": 200,
+        "water_needs": "Precise",
+        "sunlight": "Varies by species",
+        "toxicity": 0,
+        "rarity": 6
+      },
+      "regions": ["Japan", "China", "Global"],
+      "care_level": "Expert",
+      "special_traits": [
+        "Miniaturized tree",
+        "Artistic pruning",
+        "Wire training"
+      ],
+      "companion_plants": ["Moss", "Small ferns", "Accent plants"],
+      "pests": ["Spider mites", "Aphids", "Fungus"],
+      "propagation": ["Seeds", "Cuttings", "Air layering"],
+      "bloom": {
+        "season": "Varies",
+        "color": "Varies",
+        "fragrance": "Varies"
+      },
+      "evolution": {
+        "pre": "Young Sapling",
+        "next": "Ancient Bonsai"
+      },
+      "soil_type": ["Akadama", "Pumice", "Lava rock"],
+      "temperature_range": {
+        "min_celsius": 5,
+        "max_celsius": 35
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Not Applicable"
+    },
+    {
+      "id": 11,
+      "name": "Rafflesia",
+      "scientific_name": "Rafflesia arnoldii",
+      "types": ["Parasitic", "Giant Flower"],
+      "habitat": "Rainforest",
+      "stats": {
+        "height_cm": 20,
+        "spread_cm": 100,
+        "growth_rate": "Slow",
+        "lifespan_years": 1,
+        "water_needs": "Host-dependent",
+        "sunlight": "Indirect (via host)",
+        "toxicity": 0,
+        "rarity": 10
+      },
+      "regions": ["Southeast Asia", "Borneo", "Sumatra"],
+      "care_level": "Impossible (uncultivable)",
+      "special_traits": [
+        "World's largest single flower",
+        "Parasitic—no leaves or stems",
+        "Rotting meat smell"
+      ],
+      "companion_plants": ["Tetrastigma vine (host only)"],
+      "pests": ["Unknown in wild"],
+      "propagation": ["Seed (requires specific host)"],
+      "bloom": {
+        "season": "Sporadic",
+        "color": "Red/Brown with spots",
+        "fragrance": "Rotting flesh"
+      },
+      "evolution": {
+        "pre": null,
+        "next": null
+      },
+      "soil_type": ["None (lives inside host vine)"],
+      "temperature_range": {
+        "min_celsius": 25,
+        "max_celsius": 35
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Endangered"
+    },
+    {
+      "id": 12,
+      "name": "Sunflower",
+      "scientific_name": "Helianthus annuus",
+      "types": ["Annual", "Flower"],
+      "habitat": "Field",
+      "stats": {
+        "height_cm": 300,
+        "spread_cm": 60,
+        "growth_rate": "Fast",
+        "lifespan_years": 1,
+        "water_needs": "Medium",
+        "sunlight": "Full Sun",
+        "toxicity": 0,
+        "rarity": 1
+      },
+      "regions": ["North America", "Global"],
+      "care_level": "Easy",
+      "special_traits": [
+        "Heliotropism (tracks sun)",
+        "Edible seeds",
+        "Phytoremediation"
+      ],
+      "companion_plants": ["Cucumbers", "Corn", "Beans"],
+      "pests": ["Aphids", "Birds", "Powdery mildew"],
+      "propagation": ["Seed"],
+      "bloom": {
+        "season": "Summer",
+        "color": "Yellow",
+        "fragrance": "Mild"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Giant Sunflower"
+      },
+      "soil_type": ["Well-draining", "Rich", "Neutral pH"],
+      "temperature_range": {
+        "min_celsius": 10,
+        "max_celsius": 35
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 13,
+      "name": "Dragon's Blood Tree",
+      "scientific_name": "Dracaena cinnabari",
+      "types": ["Tree", "Succulent"],
+      "habitat": "Island/Coastal",
+      "stats": {
+        "height_cm": 1000,
+        "spread_cm": 700,
+        "growth_rate": "Very Slow",
+        "lifespan_years": 650,
+        "water_needs": "Very Low",
+        "sunlight": "Full Sun",
+        "toxicity": 0,
+        "rarity": 9
+      },
+      "regions": ["Socotra, Yemen"],
+      "care_level": "Expert",
+      "special_traits": [
+        "Umbrella-shaped canopy",
+        "Red sap ('dragon blood')",
+        "Survives harsh cliffs"
+      ],
+      "companion_plants": ["Socotran Desert Rose", "Bottle Trees"],
+      "pests": ["Unknown in wild"],
+      "propagation": ["Seed"],
+      "bloom": {
+        "season": "February",
+        "color": "Greenish-White",
+        "fragrance": "Mild"
+      },
+      "evolution": {
+        "pre": "Young Dragon Tree",
+        "next": null
+      },
+      "soil_type": ["Rocky", "Mineral", "Free-draining"],
+      "temperature_range": {
+        "min_celsius": 15,
+        "max_celsius": 40
+      },
+      "edible": false,
+      "medicinal": true,
+      "conservation_status": "Vulnerable"
+    },
+    {
+      "id": 14,
+      "name": "Pitcher Plant",
+      "scientific_name": "Nepenthes rajah",
+      "types": ["Carnivorous", "Tropical"],
+      "habitat": "Montane Forest",
+      "stats": {
+        "height_cm": 500,
+        "spread_cm": 150,
+        "growth_rate": "Slow",
+        "lifespan_years": 20,
+        "water_needs": "High (rainwater)",
+        "sunlight": "Partial Sun",
+        "toxicity": 0,
+        "rarity": 8
+      },
+      "regions": ["Borneo", "Malaysia"],
+      "care_level": "Advanced",
+      "special_traits": [
+        "Largest carnivorous pitcher",
+        "Digests small mammals",
+        "Symbiotic relationships with ants"
+      ],
+      "companion_plants": ["Sphagnum Moss", "Sundew"],
+      "pests": ["Mealybugs", "Scale", "Fungus"],
+      "propagation": ["Seed", "Stem cutting"],
+      "bloom": {
+        "season": "Dry Season",
+        "color": "Brown/Red",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": "Small Pitcher",
+        "next": "King Pitcher"
+      },
+      "soil_type": ["Sphagnum moss", "Ultra-acidic", "Nutrient-poor"],
+      "temperature_range": {
+        "min_celsius": 15,
+        "max_celsius": 28
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Endangered"
+    },
+    {
+      "id": 15,
+      "name": "Wisteria",
+      "scientific_name": "Wisteria sinensis",
+      "types": ["Vine", "Ornamental"],
+      "habitat": "Temperate",
+      "stats": {
+        "height_cm": 2500,
+        "spread_cm": 1500,
+        "growth_rate": "Aggressive",
+        "lifespan_years": 100,
+        "water_needs": "Medium",
+        "sunlight": "Full Sun",
+        "toxicity": 7,
+        "rarity": 2
+      },
+      "regions": ["East Asia", "North America"],
+      "care_level": "Intermediate",
+      "special_traits": [
+        "Longest hanging flowers",
+        "Twisting stems",
+        "Fragrant cascades"
+      ],
+      "companion_plants": ["Clematis", "Roses"],
+      "pests": ["Aphids", "Scale", "Leaf miners"],
+      "propagation": ["Layering", "Cuttings", "Seed (slow)"],
+      "bloom": {
+        "season": "Spring",
+        "color": "Purple/Lavender",
+        "fragrance": "Sweet, intense"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Ancient Wisteria"
+      },
+      "soil_type": ["Moist", "Well-draining", "Fertile"],
+      "temperature_range": {
+        "min_celsius": -25,
+        "max_celsius": 38
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Not Evaluated"
+    },
+{
+      "id": 16,
+      "name": "Water Lily",
+      "scientific_name": "Victoria amazonica",
+      "types": ["Aquatic", "Giant"],
+      "habitat": "Freshwater",
+      "stats": {
+        "height_cm": 10,
+        "spread_cm": 300,
+        "growth_rate": "Fast",
+        "lifespan_years": 5,
+        "water_needs": "Submerged",
+        "sunlight": "Full Sun",
+        "toxicity": 0,
+        "rarity": 5
+      },
+      "regions": ["South America", "Amazon Basin"],
+      "care_level": "Advanced",
+      "special_traits": [
+        "Leaves support 40kg weight",
+        "Nocturnal blooming",
+        "Thermogenesis (produces heat)"
+      ],
+      "companion_plants": ["Lotus", "Water Hyacinth", "Papyrus"],
+      "pests": ["Aphids", "Snails", "Water beetles"],
+      "propagation": ["Seed", "Rhizome division"],
+      "bloom": {
+        "season": "Summer",
+        "color": "White to Pink",
+        "fragrance": "Sweet pineapple"
+      },
+      "evolution": {
+        "pre": "Lily Pad",
+        "next": "Queen Victoria Lily"
+      },
+      "soil_type": ["Aquatic soil", "Clay", "Submerged mud"],
+      "temperature_range": {
+        "min_celsius": 20,
+        "max_celsius": 35
+      },
+      "edible": true,
+      "medicinal": false,
+      "conservation_status": "Least Concern"
+    },
+    {
+      "id": 17,
+      "name": "Dragon Fruit Cactus",
+      "scientific_name": "Hylocereus undatus",
+      "types": ["Cactus", "Fruit-bearing"],
+      "habitat": "Tropical/Subtropical",
+      "stats": {
+        "height_cm": 600,
+        "spread_cm": 300,
+        "growth_rate": "Fast",
+        "lifespan_years": 30,
+        "water_needs": "Low-Medium",
+        "sunlight": "Full Sun to Partial",
+        "toxicity": 0,
+        "rarity": 3
+      },
+      "regions": ["Central America", "Southeast Asia", "Global"],
+      "care_level": "Easy",
+      "special_traits": [
+        "Nocturnal flowers",
+        "Climbing cactus",
+        "Multiple harvests per year"
+      ],
+      "companion_plants": ["Pineapple", "Passionfruit", "Aloe"],
+      "pests": ["Mealybugs", "Scale", "Fruit flies"],
+      "propagation": ["Stem cutting", "Seed"],
+      "bloom": {
+        "season": "Summer",
+        "color": "White, night-blooming",
+        "fragrance": "Heavy sweet"
+      },
+      "evolution": {
+        "pre": "Dragon Fruit Cutting",
+        "next": "Golden Dragon Fruit"
+      },
+      "soil_type": ["Sandy loam", "Well-draining", "Rich organic"],
+      "temperature_range": {
+        "min_celsius": 10,
+        "max_celsius": 40
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 18,
+      "name": "Deadly Nightshade",
+      "scientific_name": "Atropa belladonna",
+      "types": ["Toxic", "Perennial"],
+      "habitat": "Woodland",
+      "stats": {
+        "height_cm": 150,
+        "spread_cm": 90,
+        "growth_rate": "Moderate",
+        "lifespan_years": 8,
+        "water_needs": "Medium",
+        "sunlight": "Partial Shade",
+        "toxicity": 10,
+        "rarity": 6
+      },
+      "regions": ["Europe", "North Africa", "Western Asia"],
+      "care_level": "Dangerous (not recommended)",
+      "special_traits": [
+        "Extremely toxic alkaloids",
+        "Historical use in cosmetics",
+        "Hallucinogenic properties"
+      ],
+      "companion_plants": ["None (toxic to most)"],
+      "pests": ["Flea beetles", "Aphids"],
+      "propagation": ["Seed", "Root division"],
+      "bloom": {
+        "season": "Summer",
+        "color": "Purple/Brown bells",
+        "fragrance": "Mild"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Witches' Belladonna"
+      },
+      "soil_type": ["Chalky", "Well-draining", "Disturbed soil"],
+      "temperature_range": {
+        "min_celsius": -15,
+        "max_celsius": 35
+      },
+      "edible": false,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 19,
+      "name": "Sequoia",
+      "scientific_name": "Sequoiadendron giganteum",
+      "types": ["Tree", "Ancient"],
+      "habitat": "Mountain Forest",
+      "stats": {
+        "height_cm": 9500,
+        "spread_cm": 2500,
+        "growth_rate": "Slow",
+        "lifespan_years": 3200,
+        "water_needs": "Medium",
+        "sunlight": "Full Sun",
+        "toxicity": 0,
+        "rarity": 8
+      },
+      "regions": ["California, USA"],
+      "care_level": "Expert",
+      "special_traits": [
+        "Largest tree by volume",
+        "Fire-resistant bark",
+        "Oldest living organisms"
+      ],
+      "companion_plants": ["Ferns", "Dogwood", "Sugar Pine"],
+      "pests": ["Bark beetles", "Mistletoe"],
+      "propagation": ["Seed (requires fire)", "Cone collection"],
+      "bloom": {
+        "season": "Spring",
+        "color": "Small brown cones",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": "Sequoia Sapling",
+        "next": "Colossal Sequoia"
+      },
+      "soil_type": ["Deep", "Well-drained", "Sandy loam"],
+      "temperature_range": {
+        "min_celsius": -15,
+        "max_celsius": 35
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Endangered"
+    },
+    {
+      "id": 20,
+      "name": "Welwitschia",
+      "scientific_name": "Welwitschia mirabilis",
+      "types": ["Desert", "Living Fossil"],
+      "habitat": "Desert",
+      "stats": {
+        "height_cm": 50,
+        "spread_cm": 400,
+        "growth_rate": "Extremely Slow",
+        "lifespan_years": 2000,
+        "water_needs": "Minimal (fog-dependent)",
+        "sunlight": "Full Sun",
+        "toxicity": 0,
+        "rarity": 10
+      },
+      "regions": ["Namibia", "Angola"],
+      "care_level": "Impossible (special conditions)",
+      "special_traits": [
+        "Only two leaves in lifetime",
+        "Survives on fog moisture",
+        "Living fossil from Jurassic"
+      ],
+      "companion_plants": ["Lithops", "Dollar Bush"],
+      "pests": ["Unknown in wild"],
+      "propagation": ["Seed (extremely difficult)"],
+      "bloom": {
+        "season": "Summer",
+        "color": "Salmon-colored cones",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Ancient Welwitschia"
+      },
+      "soil_type": ["Sand", "Gravel", "Mineral-rich"],
+      "temperature_range": {
+        "min_celsius": 5,
+        "max_celsius": 50
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Near Threatened"
+    },
+    {
+      "id": 21,
+      "name": "Mango Tree",
+      "scientific_name": "Mangifera indica",
+      "types": ["Tree", "Fruit-bearing"],
+      "habitat": "Tropical",
+      "stats": {
+        "height_cm": 3500,
+        "spread_cm": 3000,
+        "growth_rate": "Moderate",
+        "lifespan_years": 300,
+        "water_needs": "Medium-High",
+        "sunlight": "Full Sun",
+        "toxicity": 2,
+        "rarity": 1
+      },
+      "regions": ["South Asia", "Southeast Asia", "Global"],
+      "care_level": "Intermediate",
+      "special_traits": [
+        "King of fruits",
+        "Canopy provides dense shade",
+        "Self-fertile"
+      ],
+      "companion_plants": ["Banana", "Turmeric", "Ginger"],
+      "pests": ["Fruit flies", "Mango hoppers", "Anthracnose"],
+      "propagation": ["Grafting", "Seed", "Air layering"],
+      "bloom": {
+        "season": "Winter-Spring",
+        "color": "Yellow/Green panicles",
+        "fragrance": "Sweet, musky"
+      },
+      "evolution": {
+        "pre": "Mango Seedling",
+        "next": "Ancient Mango Grove"
+      },
+      "soil_type": ["Deep", "Well-draining", "Sandy loam"],
+      "temperature_range": {
+        "min_celsius": 10,
+        "max_celsius": 45
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Data Deficient"
+    },
+    {
+      "id": 22,
+      "name": "Bleeding Heart",
+      "scientific_name": "Lamprocapnos spectabilis",
+      "types": ["Perennial", "Ornamental"],
+      "habitat": "Woodland",
+      "stats": {
+        "height_cm": 90,
+        "spread_cm": 90,
+        "growth_rate": "Moderate",
+        "lifespan_years": 10,
+        "water_needs": "Medium",
+        "sunlight": "Partial to Full Shade",
+        "toxicity": 5,
+        "rarity": 3
+      },
+      "regions": ["East Asia", "North America"],
+      "care_level": "Easy",
+      "special_traits": [
+        "Heart-shaped flowers",
+        "Spring ephemeral",
+        "Attracts hummingbirds"
+      ],
+      "companion_plants": ["Hostas", "Ferns", "Astilbe"],
+      "pests": ["Slugs", "Snails", "Aphids"],
+      "propagation": ["Division", "Seed"],
+      "bloom": {
+        "season": "Spring",
+        "color": "Pink/White hearts",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Golden Bleeding Heart"
+      },
+      "soil_type": ["Rich", "Moist", "Humus-rich"],
+      "temperature_range": {
+        "min_celsius": -30,
+        "max_celsius": 30
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 23,
+      "name": "Kelp Forest",
+      "scientific_name": "Macrocystis pyrifera",
+      "types": ["Aquatic", "Algae"],
+      "habitat": "Marine",
+      "stats": {
+        "height_cm": 4500,
+        "spread_cm": 1000,
+        "growth_rate": "Extreme Fast",
+        "lifespan_years": 5,
+        "water_needs": "Submerged (saltwater)",
+        "sunlight": "Submerged shallow",
+        "toxicity": 0,
+        "rarity": 2
+      },
+      "regions": ["Pacific Ocean", "Global cold coasts"],
+      "care_level": "Impossible (marine environment)",
+      "special_traits": [
+        "Fastest growing organism",
+        "Creates underwater forests",
+        "Carbon sequestration"
+      ],
+      "companion_plants": ["Sea urchin (grazer)", "Otters (protectors)"],
+      "pests": ["Sea urchins", "Warm water bleaching"],
+      "propagation": ["Spores", "Fragmentation"],
+      "bloom": {
+        "season": "Year-round",
+        "color": "Brown/Green",
+        "fragrance": "Marine"
+      },
+      "evolution": {
+        "pre": "Kelp Spore",
+        "next": "Ancient Kelp Forest"
+      },
+      "soil_type": ["Rock substrate", "None (floating)"],
+      "temperature_range": {
+        "min_celsius": 5,
+        "max_celsius": 20
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Declining"
+    },
+    {
+      "id": 24,
+      "name": "Cannabis",
+      "scientific_name": "Cannabis sativa",
+      "types": ["Herb", "Annual"],
+      "habitat": "Temperate/Tropical",
+      "stats": {
+        "height_cm": 400,
+        "spread_cm": 200,
+        "growth_rate": "Fast",
+        "lifespan_years": 1,
+        "water_needs": "Medium",
+        "sunlight": "Full Sun",
+        "toxicity": 0,
+        "rarity": 1
+      },
+      "regions": ["Central Asia", "Global"],
+      "care_level": "Intermediate",
+      "special_traits": [
+        "Psychoactive compounds",
+        "Industrial fiber source",
+        "Medicinal applications"
+      ],
+      "companion_plants": ["Basil", "Marigold", "Dill"],
+      "pests": ["Spider mites", "Thrips", "Powdery mildew"],
+      "propagation": ["Seed", "Cloning"],
+      "bloom": {
+        "season": "Autumn",
+        "color": "Green buds",
+        "fragrance": "Pungent, skunky"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "High-CBD Variant"
+      },
+      "soil_type": ["Well-draining", "Rich", "Slightly acidic"],
+      "temperature_range": {
+        "min_celsius": 15,
+        "max_celsius": 30
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 25,
+      "name": "Baobab",
+      "scientific_name": "Adansonia digitata",
+      "types": ["Tree", "Succulent"],
+      "habitat": "Savanna",
+      "stats": {
+        "height_cm": 3000,
+        "spread_cm": 2000,
+        "growth_rate": "Slow",
+        "lifespan_years": 2500,
+        "water_needs": "Very Low",
+        "sunlight": "Full Sun",
+        "toxicity": 0,
+        "rarity": 7
+      },
+      "regions": ["Africa", "Madagascar", "Australia"],
+      "care_level": "Expert",
+      "special_traits": [
+        "Stores 120,000 liters water",
+        "Upside-down appearance",
+        "Fruit superfood"
+      ],
+      "companion_plants": ["Acacia", "Marula Tree"],
+      "pests": ["Fruit bats", "Elephants (bark stripping)"],
+      "propagation": ["Seed", "Cutting"],
+      "bloom": {
+        "season": "Dry Season",
+        "color": "White, bat-pollinated",
+        "fragrance": "Musty, bat-attracting"
+      },
+      "evolution": {
+        "pre": "Young Baobab",
+        "next": "Elder Baobab"
+      },
+      "soil_type": ["Sandy", "Well-draining", "Nutrient-poor"],
+      "temperature_range": {
+        "min_celsius": 5,
+        "max_celsius": 45
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Not threatened"
+    },
+{
+      "id": 26,
+      "name": "Lion's Mane Mushroom",
+      "scientific_name": "Hericium erinaceus",
+      "types": ["Fungi", "Edible"],
+      "habitat": "Deciduous Forest",
+      "stats": {
+        "height_cm": 25,
+        "spread_cm": 30,
+        "growth_rate": "Fast",
+        "lifespan_years": 1,
+        "water_needs": "High humidity",
+        "sunlight": "None (decomposer)",
+        "toxicity": 0,
+        "rarity": 5
+      },
+      "regions": ["North America", "Europe", "Asia"],
+      "care_level": "Advanced",
+      "special_traits": [
+        "Neuroprotective compounds",
+        "Cascading spine structure",
+        "Parasitic on dead wood"
+      ],
+      "companion_plants": ["Oak trees", "Beech trees"],
+      "pests": ["Fungus gnats", "Trichoderma mold"],
+      "propagation": ["Spore", "Liquid culture", "Grain spawn"],
+      "bloom": {
+        "season": "Late Summer-Fall",
+        "color": "White to cream",
+        "fragrance": "Sweet, seafood-like"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Golden Lion's Mane"
+      },
+      "soil_type": ["Hardwood substrate", "Sawdust blocks"],
+      "temperature_range": {
+        "min_celsius": 10,
+        "max_celsius": 25
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 27,
+      "name": "Ginkgo Biloba",
+      "scientific_name": "Ginkgo biloba",
+      "types": ["Tree", "Living Fossil"],
+      "habitat": "Temperate",
+      "stats": {
+        "height_cm": 3500,
+        "spread_cm": 1500,
+        "growth_rate": "Slow",
+        "lifespan_years": 3000,
+        "water_needs": "Medium",
+        "sunlight": "Full Sun",
+        "toxicity": 3,
+        "rarity": 4
+      },
+      "regions": ["China", "Global cultivation"],
+      "care_level": "Easy",
+      "special_traits": [
+        "270 million years old species",
+        "Survived Hiroshima atomic bomb",
+        "Unique fan-shaped leaves"
+      ],
+      "companion_plants": ["Japanese Maple", "Azalea", "Hosta"],
+      "pests": ["Virtually pest-free", "Leaf spot rare"],
+      "propagation": ["Seed", "Cutting", "Grafting"],
+      "bloom": {
+        "season": "Spring",
+        "color": "Male catkins",
+        "fragrance": "Female fruit smells rancid"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Ancient Ginkgo"
+      },
+      "soil_type": ["Well-draining", "Sandy", "Tolerates poor soils"],
+      "temperature_range": {
+        "min_celsius": -30,
+        "max_celsius": 40
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Endangered in Wild"
+    },
+    {
+      "id": 28,
+      "name": "Wollemi Pine",
+      "scientific_name": "Wollemia nobilis",
+      "types": ["Tree", "Living Fossil"],
+      "habitat": "Temperate Rainforest",
+      "stats": {
+        "height_cm": 4000,
+        "spread_cm": 800,
+        "growth_rate": "Slow",
+        "lifespan_years": 1000,
+        "water_needs": "Medium",
+        "sunlight": "Partial Shade",
+        "toxicity": 0,
+        "rarity": 10
+      },
+      "regions": ["Australia (secret location)"],
+      "care_level": "Expert",
+      "special_traits": [
+        "Thought extinct for 200 million years",
+        "Discovered 1994 in canyon",
+        "Only 100 wild trees exist"
+      ],
+      "companion_plants": ["Tree ferns", "Coachwood"],
+      "pests": ["Phytophthora root rot"],
+      "propagation": ["Seed", "Cutting (legal restrictions)"],
+      "bloom": {
+        "season": "Year-round cones",
+        "color": "Brown/green",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": null,
+        "next": null
+      },
+      "soil_type": ["Acidic", "Well-draining", "Moist"],
+      "temperature_range": {
+        "min_celsius": -12,
+        "max_celsius": 40
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Critically Endangered"
+    },
+    {
+      "id": 29,
+      "name": "Sundew",
+      "scientific_name": "Drosera capensis",
+      "types": ["Carnivorous", "Insectivorous"],
+      "habitat": "Bog",
+      "stats": {
+        "height_cm": 15,
+        "spread_cm": 20,
+        "growth_rate": "Moderate",
+        "lifespan_years": 5,
+        "water_needs": "High (distilled only)",
+        "sunlight": "Full Sun",
+        "toxicity": 0,
+        "rarity": 2
+      },
+      "regions": ["South Africa", "Global cultivation"],
+      "care_level": "Beginner",
+      "special_traits": [
+        "Moving tentacles trap insects",
+        "Glittering mucilage drops",
+        "Digests prey in hours"
+      ],
+      "companion_plants": ["Venus Flytrap", "Pitcher Plants", "Sphagnum"],
+      "pests": ["Aphids", "Botrytis fungus"],
+      "propagation": ["Seed", "Leaf cutting", "Division"],
+      "bloom": {
+        "season": "Summer",
+        "color": "Pink/White",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "King Sundew"
+      },
+      "soil_type": ["Sphagnum peat", "Silica sand", "Nutrient-free"],
+      "temperature_range": {
+        "min_celsius": 5,
+        "max_celsius": 35
+      },
+      "edible": false,
+      "medicinal": true,
+      "conservation_status": "Not Threatened"
+    },
+    {
+      "id": 30,
+      "name": "Coco de Mer",
+      "scientific_name": "Lodoicea maldivica",
+      "types": ["Palm", "Giant Seed"],
+      "habitat": "Tropical Island",
+      "stats": {
+        "height_cm": 3400,
+        "spread_cm": 1200,
+        "growth_rate": "Very Slow",
+        "lifespan_years": 400,
+        "water_needs": "High",
+        "sunlight": "Partial to Full Sun",
+        "toxicity": 0,
+        "rarity": 10
+      },
+      "regions": ["Seychelles (only 2 islands)"],
+      "care_level": "Impossible outside habitat",
+      "special_traits": [
+        "World's largest seed (25kg)",
+        "Suggestive shape",
+        "Takes 25 years to mature"
+      ],
+      "companion_plants": ["Vanilla orchid", "Breadfruit"],
+      "pests": ["Rats", "Poachers", "Climate change"],
+      "propagation": ["Seed only (strictly controlled)"],
+      "bloom": {
+        "season": "Year-round",
+        "color": "Yellow catkins",
+        "fragrance": "Sweet"
+      },
+      "evolution": {
+        "pre": null,
+        "next": null
+      },
+      "soil_type": ["Deep", "Rich", "Volcanic"],
+      "temperature_range": {
+        "min_celsius": 24,
+        "max_celsius": 32
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Endangered"
+    },
+    {
+      "id": 31,
+      "name": "Psilocybe Mushroom",
+      "scientific_name": "Psilocybe cubensis",
+      "types": ["Fungi", "Psychoactive"],
+      "habitat": "Tropical/Subtropical",
+      "stats": {
+        "height_cm": 15,
+        "spread_cm": 5,
+        "growth_rate": "Fast",
+        "lifespan_years": 1,
+        "water_needs": "High humidity",
+        "sunlight": "Indirect light",
+        "toxicity": 0,
+        "rarity": 4
+      },
+      "regions": ["Central/South America", "Southeast Asia"],
+      "care_level": "Intermediate",
+      "special_traits": [
+        "Psychoactive compounds",
+        "Spores turn purple-black",
+        "Historical spiritual use"
+      ],
+      "companion_plants": ["None (grows on dung/grains)"],
+      "pests": ["Trichoderma", "Bacterial blotch", "Fungus gnats"],
+      "propagation": ["Spore syringe", "Agar culture"],
+      "bloom": {
+        "season": "Rainy season",
+        "color": "Golden cap, blue bruising",
+        "fragrance": "Earthy"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Albino Psilocybe"
+      },
+      "soil_type": ["Grain spawn", "Manure substrate", "Coco coir"],
+      "temperature_range": {
+        "min_celsius": 21,
+        "max_celsius": 27
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 32,
+      "name": "Cocoa Tree",
+      "scientific_name": "Theobroma cacao",
+      "types": ["Tree", "Fruit-bearing"],
+      "habitat": "Tropical Rainforest",
+      "stats": {
+        "height_cm": 800,
+        "spread_cm": 500,
+        "growth_rate": "Slow",
+        "lifespan_years": 50,
+        "water_needs": "High",
+        "sunlight": "Partial Shade",
+        "toxicity": 0,
+        "rarity": 3
+      },
+      "regions": ["Central/South America", "West Africa", "Southeast Asia"],
+      "care_level": "Advanced",
+      "special_traits": [
+        "Source of all chocolate",
+        "Cauliflory (fruit on trunk)",
+        "Requires midge pollination"
+      ],
+      "companion_plants": ["Banana (shade)", "Coconut", "Inga"],
+      "pests": ["Cocoa pod borer", "Witches' broom disease", "Mirids"],
+      "propagation": ["Seed", "Grafting", "Cutting"],
+      "bloom": {
+        "season": "Year-round",
+        "color": "White/Pink",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": "Cacao Seedling",
+        "next": "Criollo Cacao"
+      },
+      "soil_type": ["Rich", "Moist", "Well-draining"],
+      "temperature_range": {
+        "min_celsius": 18,
+        "max_celsius": 32
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 33,
+      "name": "Bladderwort",
+      "scientific_name": "Utricularia vulgaris",
+      "types": ["Carnivorous", "Aquatic"],
+      "habitat": "Freshwater",
+      "stats": {
+        "height_cm": 50,
+        "spread_cm": 200,
+        "growth_rate": "Fast",
+        "lifespan_years": 3,
+        "water_needs": "Submerged",
+        "sunlight": "Full Sun",
+        "toxicity": 0,
+        "rarity": 4
+      },
+      "regions": ["Worldwide", "Temperate/Subtropical"],
+      "care_level": "Intermediate",
+      "special_traits": [
+        "Fastest plant movement (1ms)",
+        "Suction trap mechanism",
+        "No roots"
+      ],
+      "companion_plants": ["Water Lilies", "Cattails"],
+      "pests": ["Algae", "Snails"],
+      "propagation": ["Division", "Turions (winter buds)"],
+      "bloom": {
+        "season": "Summer",
+        "color": "Yellow (above water)",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Giant Bladderwort"
+      },
+      "soil_type": ["None (floating aquatic)", "Acidic water"],
+      "temperature_range": {
+        "min_celsius": 4,
+        "max_celsius": 30
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Least Concern"
+    },
+    {
+      "id": 34,
+      "name": "Truffle",
+      "scientific_name": "Tuber melanosporum",
+      "types": ["Fungi", "Underground"],
+      "habitat": "Oak/Hazel Forests",
+      "stats": {
+        "height_cm": 0,
+        "spread_cm": 15,
+        "growth_rate": "Very Slow",
+        "lifespan_years": 10,
+        "water_needs": "Medium",
+        "sunlight": "None (subterranean)",
+        "toxicity": 0,
+        "rarity": 9
+      },
+      "regions": ["France", "Italy", "Spain"],
+      "care_level": "Expert",
+      "special_traits": [
+        "World's most expensive ingredient",
+        "Symbiotic with tree roots",
+        "Found by trained dogs/pigs"
+      ],
+      "companion_plants": ["Oak", "Hazel", "Pine Trees"],
+      "pests": ["Truffle beetles", "Rodents", "Poachers"],
+      "propagation": ["Spore inoculation", "Infected saplings"],
+      "bloom": {
+        "season": "Winter",
+        "color": "Black diamond exterior",
+        "fragrance": "Earthy, intense, unique"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "White Alba Truffle"
+      },
+      "soil_type": ["Calcareous", "Alkaline", "Well-draining"],
+      "temperature_range": {
+        "min_celsius": -5,
+        "max_celsius": 30
+      },
+      "edible": true,
+      "medicinal": false,
+      "conservation_status": "Declining"
+    },
+    {
+      "id": 35,
+      "name": "Rafflesia Kerrii",
+      "scientific_name": "Rafflesia kerrii",
+      "types": ["Parasitic", "Record-breaker"],
+      "habitat": "Rainforest",
+      "stats": {
+        "height_cm": 15,
+        "spread_cm": 90,
+        "growth_rate": "Slow",
+        "lifespan_years": 1,
+        "water_needs": "Host-dependent",
+        "sunlight": "Indirect",
+        "toxicity": 0,
+        "rarity": 10
+      },
+      "regions": ["Thailand", "Malaysia"],
+      "care_level": "Impossible (uncultivable)",
+      "special_traits": [
+        "Second largest flower globally",
+        "Parasitic—no visible plant body",
+        "Smells like rotting meat"
+      ],
+      "companion_plants": ["Tetrastigma vine (host only)"],
+      "pests": ["Unknown (insufficient research)"],
+      "propagation": ["Unknown in cultivation"],
+      "bloom": {
+        "season": "Dry season",
+        "color": "Red with white spots",
+        "fragrance": "Putrid flesh"
+      },
+      "evolution": {
+        "pre": null,
+        "next": null
+      },
+      "soil_type": ["None (lives within host vine)"],
+      "temperature_range": {
+        "min_celsius": 22,
+        "max_celsius": 33
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Critically Endangered"
+    }
+  ]
+}
