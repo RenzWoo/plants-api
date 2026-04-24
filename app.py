@@ -3,7 +3,7 @@ import json
 
 app = Flask(__name__)
 
-with open('jjk_characters.json', 'r') as f:
+with open('plants.json', 'r') as f:
     data = json.load(f)
 
 @app.route('/')

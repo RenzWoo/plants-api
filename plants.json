@@ -2067,6 +2067,534 @@
       "edible": false,
       "medicinal": true,
       "conservation_status": "Not Evaluated"
+    },
+{
+      "id": 48,
+      "name": "Bristlecone Pine",
+      "scientific_name": "Pinus longaeva",
+      "types": ["Tree", "Ancient"],
+      "habitat": "Alpine/Subalpine",
+      "stats": {
+        "height_cm": 1500,
+        "spread_cm": 800,
+        "growth_rate": "Extremely Slow",
+        "lifespan_years": 5000,
+        "water_needs": "Very Low",
+        "sunlight": "Full Sun",
+        "toxicity": 0,
+        "rarity": 8
+      },
+      "regions": ["Western United States", "California", "Nevada", "Utah"],
+      "care_level": "Expert",
+      "special_traits": [
+        "Oldest known living individual organism (4,850+ years)",
+        "Wood doesn't rot after death",
+        "Survives extreme alpine conditions"
+      ],
+      "companion_plants": ["Limber Pine", "Alpine Sagebrush", "Mountain Mahogany"],
+      "pests": ["Bark beetles", "Dwarf mistletoe", "White pine blister rust"],
+      "propagation": ["Seed (requires cold stratification)"],
+      "bloom": {
+        "season": "Summer",
+        "color": "Purple-red male cones",
+        "fragrance": "Pine resin"
+      },
+      "evolution": {
+        "pre": "Young Bristlecone",
+        "next": "Methuselah Pine"
+      },
+      "soil_type": ["Dolomite", "Limestone", "Alkaline", "Rocky"],
+      "temperature_range": {
+        "min_celsius": -40,
+        "max_celsius": 30
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Not Threatened (protected)"
+    },
+    {
+      "id": 49,
+      "name": "Lithops",
+      "scientific_name": "Lithops aucampiae",
+      "types": ["Succulent", "Mimicry Plant"],
+      "habitat": "Desert",
+      "stats": {
+        "height_cm": 3,
+        "spread_cm": 3,
+        "growth_rate": "Extremely Slow",
+        "lifespan_years": 50,
+        "water_needs": "Minimal",
+        "sunlight": "Full Sun",
+        "toxicity": 0,
+        "rarity": 6
+      },
+      "regions": ["South Africa", "Namibia"],
+      "care_level": "Advanced",
+      "special_traits": [
+        "Mimics stones to avoid predators",
+        "Two succulent leaves only",
+        "Transparent leaf windows for light"
+      ],
+      "companion_plants": ["Conophytum", "Split Rocks", "Haworthia"],
+      "pests": ["Mealybugs", "Root rot (overwatering fatal)"],
+      "propagation": ["Seed", "Division of clumps"],
+      "bloom": {
+        "season": "Autumn",
+        "color": "White or Yellow daisy-like",
+        "fragrance": "Mild sweet"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Flowering Stone"
+      },
+      "soil_type": ["Sandy", "Gritty", "Mineral", "No organic matter"],
+      "temperature_range": {
+        "min_celsius": 5,
+        "max_celsius": 45
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 50,
+      "name": "Castor Bean",
+      "scientific_name": "Ricinus communis",
+      "types": ["Toxic", "Annual/Perennial"],
+      "habitat": "Tropical/Subtropical",
+      "stats": {
+        "height_cm": 400,
+        "spread_cm": 200,
+        "growth_rate": "Extreme Fast",
+        "lifespan_years": 1,
+        "water_needs": "Medium",
+        "sunlight": "Full Sun",
+        "toxicity": 10,
+        "rarity": 2
+      },
+      "regions": ["Africa", "India", "Global warm regions"],
+      "care_level": "Easy (dangerous)",
+      "special_traits": [
+        "Source of ricin (deadly toxin)",
+        "Seeds fatal if ingested",
+        "Industrial castor oil"
+      ],
+      "companion_plants": ["None (keep isolated)", "Mole repellent plant"],
+      "pests": ["Spider mites", "Leaf miners", "Aphids"],
+      "propagation": ["Seed (handle with extreme caution)"],
+      "bloom": {
+        "season": "Summer-Fall",
+        "color": "Red/Green spiky seed pods",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Giant Castor"
+      },
+      "soil_type": ["Rich", "Well-draining", "Tolerates poor soils"],
+      "temperature_range": {
+        "min_celsius": 5,
+        "max_celsius": 45
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 51,
+      "name": "Shiitake Mushroom",
+      "scientific_name": "Lentinula edodes",
+      "types": ["Fungi", "Edible"],
+      "habitat": "Deciduous Forest",
+      "stats": {
+        "height_cm": 10,
+        "spread_cm": 15,
+        "growth_rate": "Moderate",
+        "lifespan_years": 1,
+        "water_needs": "High humidity",
+        "sunlight": "Indirect",
+        "toxicity": 0,
+        "rarity": 1
+      },
+      "regions": ["East Asia", "Global cultivation"],
+      "care_level": "Intermediate",
+      "special_traits": [
+        "Umami-rich flavor",
+        "Immune-boosting lentinan",
+        "1000+ years cultivation history"
+      ],
+      "companion_plants": ["Oak", "Beech", "Maple logs"],
+      "pests": ["Slugs", "Fungus gnats", "Green mold"],
+      "propagation": ["Spore", "Plug spawn", "Sawdust spawn"],
+      "bloom": {
+        "season": "Spring and Fall",
+        "color": "Brown cap, white gills",
+        "fragrance": "Rich, earthy, umami"
+      },
+      "evolution": {
+        "pre": "Shiitake Primordia",
+        "next": "Donko Shiitake"
+      },
+      "soil_type": ["Hardwood logs", "Supplemented sawdust"],
+      "temperature_range": {
+        "min_celsius": 10,
+        "max_celsius": 25
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Abundant in cultivation"
+    },
+    {
+      "id": 52,
+      "name": "Oyster Mushroom",
+      "scientific_name": "Pleurotus ostreatus",
+      "types": ["Fungi", "Edible"],
+      "habitat": "Temperate Forest",
+      "stats": {
+        "height_cm": 12,
+        "spread_cm": 15,
+        "growth_rate": "Fast",
+        "lifespan_years": 1,
+        "water_needs": "High humidity",
+        "sunlight": "Indirect",
+        "toxicity": 0,
+        "rarity": 1
+      },
+      "regions": ["Worldwide", "All continents"],
+      "care_level": "Beginner",
+      "special_traits": [
+        "Carnivorous (eats nematodes)",
+        "Mycoremediation potential",
+        "Grows on almost anything"
+      ],
+      "companion_plants": ["None (saprophytic)"],
+      "pests": ["Fungus gnats", "Trichoderma", "Bacterial blotch"],
+      "propagation": ["Grain spawn", "Straw inoculation", "Coffee grounds"],
+      "bloom": {
+        "season": "Year-round in cultivation",
+        "color": "Pearl white to grey-blue",
+        "fragrance": "Anise/licorice-like"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "King Oyster Mushroom"
+      },
+      "soil_type": ["Straw", "Coffee grounds", "Hardwood sawdust", "Cardboard"],
+      "temperature_range": {
+        "min_celsius": 10,
+        "max_celsius": 24
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Abundant"
+    },
+    {
+      "id": 53,
+      "name": "Enoki Mushroom",
+      "scientific_name": "Flammulina velutipes",
+      "types": ["Fungi", "Edible"],
+      "habitat": "Temperate Forest",
+      "stats": {
+        "height_cm": 15,
+        "spread_cm": 3,
+        "growth_rate": "Fast",
+        "lifespan_years": 1,
+        "water_needs": "High humidity",
+        "sunlight": "None (darkness for cultivation)",
+        "toxicity": 0,
+        "rarity": 1
+      },
+      "regions": ["East Asia", "Global cultivation"],
+      "care_level": "Intermediate",
+      "special_traits": [
+        "Grown in darkness for long stems",
+        "Wild form looks completely different",
+        "Winter mushroom (cold tolerant)"
+      ],
+      "companion_plants": ["Elm", "Willow", "Aspen trees"],
+      "pests": ["Fungus gnats", "Bacterial blotch"],
+      "propagation": ["Grain spawn", "Sawdust bottles"],
+      "bloom": {
+        "season": "Winter (wild), Year-round (cultivated)",
+        "color": "White (cultivated), Brown/Orange (wild)",
+        "fragrance": "Mild, fruity"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Golden Enoki"
+      },
+      "soil_type": ["Supplemented sawdust", "Wood logs"],
+      "temperature_range": {
+        "min_celsius": 3,
+        "max_celsius": 15
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Abundant"
+    },
+    {
+      "id": 54,
+      "name": "Bioluminescent Algae",
+      "scientific_name": "Pyrocystis fusiformis",
+      "types": ["Algae", "Bioluminescent"],
+      "habitat": "Marine",
+      "stats": {
+        "height_cm": 0,
+        "spread_cm": 0,
+        "growth_rate": "Fast",
+        "lifespan_years": 1,
+        "water_needs": "Submerged saltwater",
+        "sunlight": "Bright (photosynthetic)",
+        "toxicity": 0,
+        "rarity": 5
+      },
+      "regions": ["Worldwide", "Tropical/Subtropical oceans"],
+      "care_level": "Intermediate",
+      "special_traits": [
+        "Glows blue when disturbed",
+        "Circadian rhythm of bioluminescence",
+        "Creates ocean 'milky seas'"
+      ],
+      "companion_plants": ["None (marine microorganisms)"],
+      "pests": ["Bacteria", "Nutrient imbalance"],
+      "propagation": ["Cell division", "Culture splitting"],
+      "bloom": {
+        "season": "Year-round",
+        "color": "Blue-green glow at night",
+        "fragrance": "Marine"
+      },
+      "evolution": {
+        "pre": null,
+        "next": null
+      },
+      "soil_type": ["Filtered seawater", "Nutrient medium"],
+      "temperature_range": {
+        "min_celsius": 18,
+        "max_celsius": 28
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 55,
+      "name": "Datura",
+      "scientific_name": "Datura stramonium",
+      "types": ["Toxic", "Hallucinogenic"],
+      "habitat": "Disturbed Areas",
+      "stats": {
+        "height_cm": 150,
+        "spread_cm": 120,
+        "growth_rate": "Fast",
+        "lifespan_years": 1,
+        "water_needs": "Low-Medium",
+        "sunlight": "Full Sun",
+        "toxicity": 10,
+        "rarity": 3
+      },
+      "regions": ["Americas", "Global warm regions"],
+      "care_level": "Easy (extremely dangerous)",
+      "special_traits": [
+        "Potent deliriant hallucinogen",
+        "All parts deadly poisonous",
+        "Night-blooming trumpet flowers"
+      ],
+      "companion_plants": ["None recommended"],
+      "pests": ["Spider mites", "Whitefly", "Aphids"],
+      "propagation": ["Seed"],
+      "bloom": {
+        "season": "Summer-Fall",
+        "color": "White/Purple trumpets",
+        "fragrance": "Heavy sweet, intoxicating"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Double Datura"
+      },
+      "soil_type": ["Poor", "Disturbed", "Well-draining"],
+      "temperature_range": {
+        "min_celsius": 5,
+        "max_celsius": 40
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 56,
+      "name": "Dragon Arum",
+      "scientific_name": "Dracunculus vulgaris",
+      "types": ["Aroid", "Carrion Flower"],
+      "habitat": "Mediterranean",
+      "stats": {
+        "height_cm": 120,
+        "spread_cm": 60,
+        "growth_rate": "Moderate",
+        "lifespan_years": 10,
+        "water_needs": "Low-Medium",
+        "sunlight": "Partial to Full Sun",
+        "toxicity": 5,
+        "rarity": 5
+      },
+      "regions": ["Mediterranean", "Balkans", "Turkey"],
+      "care_level": "Intermediate",
+      "special_traits": [
+        "Smells like rotting meat",
+        "Fly-pollinated",
+        "Deep purple-black spathe"
+      ],
+      "companion_plants": ["Lavender", "Rosemary", "Sage"],
+      "pests": ["Slugs", "Snails"],
+      "propagation": ["Bulb offset", "Seed"],
+      "bloom": {
+        "season": "Late Spring-Early Summer",
+        "color": "Deep purple/black with red spadix",
+        "fragrance": "Rotting flesh (for 1-2 days only)"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Giant Dragon Arum"
+      },
+      "soil_type": ["Well-draining", "Rich", "Moist in spring"],
+      "temperature_range": {
+        "min_celsius": -15,
+        "max_celsius": 38
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 57,
+      "name": "Maitake Mushroom",
+      "scientific_name": "Grifola frondosa",
+      "types": ["Fungi", "Medicinal"],
+      "habitat": "Deciduous Forest",
+      "stats": {
+        "height_cm": 30,
+        "spread_cm": 60,
+        "growth_rate": "Slow",
+        "lifespan_years": 1,
+        "water_needs": "High humidity",
+        "sunlight": "Indirect",
+        "toxicity": 0,
+        "rarity": 5
+      },
+      "regions": ["Japan", "China", "Eastern North America"],
+      "care_level": "Advanced",
+      "special_traits": [
+        "Hen of the Woods",
+        "Can weigh up to 45kg",
+        "Potent immune modulator"
+      ],
+      "companion_plants": ["Oak trees", "Elm trees", "Maple trees"],
+      "pests": ["Slugs", "Burrowing beetles", "Mold"],
+      "propagation": ["Spawn", "Wood inoculation"],
+      "bloom": {
+        "season": "Autumn",
+        "color": "Grey-brown overlapping caps",
+        "fragrance": "Earthy, woodsy"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "White Maitake"
+      },
+      "soil_type": ["At base of hardwood trees", "Buried wood"],
+      "temperature_range": {
+        "min_celsius": 10,
+        "max_celsius": 22
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 58,
+      "name": "Peyote",
+      "scientific_name": "Lophophora williamsii",
+      "types": ["Cactus", "Psychoactive"],
+      "habitat": "Desert",
+      "stats": {
+        "height_cm": 5,
+        "spread_cm": 12,
+        "growth_rate": "Extremely Slow",
+        "lifespan_years": 30,
+        "water_needs": "Very Low",
+        "sunlight": "Partial Shade",
+        "toxicity": 5,
+        "rarity": 8
+      },
+      "regions": ["Mexico", "Texas", "Southwestern US"],
+      "care_level": "Expert",
+      "special_traits": [
+        "Contains mescaline",
+        "Sacred to indigenous peoples",
+        "Takes 30 years to mature from seed"
+      ],
+      "companion_plants": ["Agave", "Yucca", "Desert grasses"],
+      "pests": ["Mealybugs", "Root rot", "Spider mites"],
+      "propagation": ["Seed (extremely slow)", "Pup division"],
+      "bloom": {
+        "season": "Spring-Summer",
+        "color": "Pink/White",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Cespitose Peyote"
+      },
+      "soil_type": ["Mineral", "Limestone-based", "Gritty", "Alkaline"],
+      "temperature_range": {
+        "min_celsius": 5,
+        "max_celsius": 40
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Vulnerable"
+    },
+    {
+      "id": 59,
+      "name": "Encephalartos Woodii",
+      "scientific_name": "Encephalartos woodii",
+      "types": ["Cycad", "Extinct in Wild"],
+      "habitat": "Subtropical Forest",
+      "stats": {
+        "height_cm": 600,
+        "spread_cm": 400,
+        "growth_rate": "Extremely Slow",
+        "lifespan_years": 500,
+        "water_needs": "Medium",
+        "sunlight": "Partial to Full Sun",
+        "toxicity": 6,
+        "rarity": 10
+      },
+      "regions": ["South Africa (extinct in wild)", "Botanical gardens worldwide"],
+      "care_level": "Expert",
+      "special_traits": [
+        "Only male plants exist",
+        "Extinct in wild since 1916",
+        "Loneliest plant in world"
+      ],
+      "companion_plants": ["Tree ferns", "Strelitzia", "Clivia"],
+      "pests": ["Scale insects", "Mealybugs", "Cycad moth"],
+      "propagation": ["Pup division (no females exist for seed)"],
+      "bloom": {
+        "season": "Summer-Autumn",
+        "color": "Orange-gold male cones",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": null,
+        "next": null
+      },
+      "soil_type": ["Rich", "Well-draining", "Slightly acidic"],
+      "temperature_range": {
+        "min_celsius": 5,
+        "max_celsius": 38
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Extinct in the Wild"
     }
   ]
 }
