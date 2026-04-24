@@ -1539,6 +1539,534 @@
       "edible": false,
       "medicinal": false,
       "conservation_status": "Critically Endangered"
+    },
+{
+      "id": 36,
+      "name": "Reishi Mushroom",
+      "scientific_name": "Ganoderma lucidum",
+      "types": ["Fungi", "Medicinal"],
+      "habitat": "Temperate Forest",
+      "stats": {
+        "height_cm": 15,
+        "spread_cm": 20,
+        "growth_rate": "Slow",
+        "lifespan_years": 2,
+        "water_needs": "High humidity",
+        "sunlight": "Indirect",
+        "toxicity": 0,
+        "rarity": 3
+      },
+      "regions": ["East Asia", "North America", "Europe"],
+      "care_level": "Advanced",
+      "special_traits": [
+        "Mushroom of immortality",
+        "2000+ years medicinal use",
+        "Lacquered red surface"
+      ],
+      "companion_plants": ["Oak", "Maple", "Hemlock trees"],
+      "pests": ["Trichoderma", "Fungus gnats", "Mites"],
+      "propagation": ["Spore", "Liquid culture", "Wood plug spawn"],
+      "bloom": {
+        "season": "Summer-Fall",
+        "color": "Red to mahogany",
+        "fragrance": "Woody, bitter"
+      },
+      "evolution": {
+        "pre": "Reishi Primordia",
+        "next": "Antler Reishi"
+      },
+      "soil_type": ["Hardwood logs", "Sawdust blocks", "Buried wood"],
+      "temperature_range": {
+        "min_celsius": 18,
+        "max_celsius": 28
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 37,
+      "name": "Spanish Moss",
+      "scientific_name": "Tillandsia usneoides",
+      "types": ["Air Plant", "Epiphyte"],
+      "habitat": "Subtropical/Coastal",
+      "stats": {
+        "height_cm": 600,
+        "spread_cm": 300,
+        "growth_rate": "Slow",
+        "lifespan_years": 20,
+        "water_needs": "Atmospheric moisture",
+        "sunlight": "Partial Shade",
+        "toxicity": 0,
+        "rarity": 1
+      },
+      "regions": ["Southeastern US", "Central/South America"],
+      "care_level": "Beginner",
+      "special_traits": [
+        "Absorbs water through leaves",
+        "No roots needed for nutrition",
+        "Important wildlife habitat"
+      ],
+      "companion_plants": ["Live Oak", "Bald Cypress", "Other air plants"],
+      "pests": ["Chiggers (in wild)", "Scale insects"],
+      "propagation": ["Division", "Seed (wind-dispersed)"],
+      "bloom": {
+        "season": "Spring-Summer",
+        "color": "Tiny yellow-green flowers",
+        "fragrance": "Subtle sweet"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Thick Spanish Moss"
+      },
+      "soil_type": ["None (grows on tree branches)", "Any surface"],
+      "temperature_range": {
+        "min_celsius": 0,
+        "max_celsius": 40
+      },
+      "edible": false,
+      "medicinal": true,
+      "conservation_status": "Not Threatened"
+    },
+    {
+      "id": 38,
+      "name": "Oleander",
+      "scientific_name": "Nerium oleander",
+      "types": ["Toxic", "Ornamental"],
+      "habitat": "Mediterranean",
+      "stats": {
+        "height_cm": 600,
+        "spread_cm": 400,
+        "growth_rate": "Fast",
+        "lifespan_years": 40,
+        "water_needs": "Low",
+        "sunlight": "Full Sun",
+        "toxicity": 10,
+        "rarity": 1
+      },
+      "regions": ["Mediterranean", "Asia", "Global warm regions"],
+      "care_level": "Easy",
+      "special_traits": [
+        "Extremely poisonous (all parts)",
+        "Drought and salt tolerant",
+        "Continuous blooming"
+      ],
+      "companion_plants": ["Olive trees", "Lavender", "Rosemary"],
+      "pests": ["Oleander aphids", "Scale", "Caterpillars"],
+      "propagation": ["Stem cutting", "Seed"],
+      "bloom": {
+        "season": "Spring-Fall",
+        "color": "Pink, White, Red, Yellow",
+        "fragrance": "Sweet, can be overwhelming"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Dwarf Oleander"
+      },
+      "soil_type": ["Any well-draining", "Sandy", "Tolerates poor soil"],
+      "temperature_range": {
+        "min_celsius": -10,
+        "max_celsius": 45
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 39,
+      "name": "Foxglove",
+      "scientific_name": "Digitalis purpurea",
+      "types": ["Biennial", "Toxic"],
+      "habitat": "Woodland Edge",
+      "stats": {
+        "height_cm": 150,
+        "spread_cm": 60,
+        "growth_rate": "Moderate",
+        "lifespan_years": 2,
+        "water_needs": "Medium",
+        "sunlight": "Partial Sun",
+        "toxicity": 9,
+        "rarity": 2
+      },
+      "regions": ["Europe", "North America", "Global gardens"],
+      "care_level": "Easy",
+      "special_traits": [
+        "Source of heart medication (digoxin)",
+        "Bee-friendly tubular flowers",
+        "Prolific self-seeder"
+      ],
+      "companion_plants": ["Ferns", "Hostas", "Delphinium"],
+      "pests": ["Aphids", "Slugs", "Powdery mildew"],
+      "propagation": ["Seed", "Self-seeds freely"],
+      "bloom": {
+        "season": "Summer",
+        "color": "Purple, Pink, White",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": "Foxglove Rosette",
+        "next": "Strawberry Foxglove"
+      },
+      "soil_type": ["Rich", "Acidic", "Well-draining"],
+      "temperature_range": {
+        "min_celsius": -25,
+        "max_celsius": 30
+      },
+      "edible": false,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 40,
+      "name": "Ghost Fungus",
+      "scientific_name": "Omphalotus nidiformis",
+      "types": ["Fungi", "Bioluminescent"],
+      "habitat": "Eucalyptus Forest",
+      "stats": {
+        "height_cm": 15,
+        "spread_cm": 20,
+        "growth_rate": "Moderate",
+        "lifespan_years": 1,
+        "water_needs": "High humidity",
+        "sunlight": "None",
+        "toxicity": 8,
+        "rarity": 7
+      },
+      "regions": ["Australia", "Tasmania"],
+      "care_level": "Expert",
+      "special_traits": [
+        "Glows green in darkness",
+        "Bioluminescent gills",
+        "Highly poisonous"
+      ],
+      "companion_plants": ["Eucalyptus trees", "Tree ferns"],
+      "pests": ["Slugs", "Insect larvae"],
+      "propagation": ["Spore", "Wood inoculation"],
+      "bloom": {
+        "season": "Autumn",
+        "color": "White/cream by day, green glow by night",
+        "fragrance": "Mushroomy"
+      },
+      "evolution": {
+        "pre": null,
+        "next": null
+      },
+      "soil_type": ["Decaying wood", "Stumps", "Fallen logs"],
+      "temperature_range": {
+        "min_celsius": 10,
+        "max_celsius": 25
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 41,
+      "name": "Cycad",
+      "scientific_name": "Cycas revoluta",
+      "types": ["Living Fossil", "Gymnosperm"],
+      "habitat": "Subtropical",
+      "stats": {
+        "height_cm": 700,
+        "spread_cm": 300,
+        "growth_rate": "Extremely Slow",
+        "lifespan_years": 1000,
+        "water_needs": "Low",
+        "sunlight": "Full Sun",
+        "toxicity": 7,
+        "rarity": 4
+      },
+      "regions": ["Japan", "Southeast Asia", "Global ornamental"],
+      "care_level": "Intermediate",
+      "special_traits": [
+        "Dinosaur-era plant (280 million years)",
+        "Cone-bearing (not flowering)",
+        "All parts toxic to pets"
+      ],
+      "companion_plants": ["Agave", "Yucca", "Palms"],
+      "pests": ["Scale insects", "Cycad blue butterfly"],
+      "propagation": ["Seed", "Pup removal"],
+      "bloom": {
+        "season": "Summer (cones only)",
+        "color": "Golden brown cones",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": "Cycad Pup",
+        "next": "Ancient Cycad"
+      },
+      "soil_type": ["Sandy", "Well-draining", "Slightly acidic"],
+      "temperature_range": {
+        "min_celsius": -10,
+        "max_celsius": 42
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Near Threatened"
+    },
+    {
+      "id": 42,
+      "name": "Henna Tree",
+      "scientific_name": "Lawsonia inermis",
+      "types": ["Shrub", "Dye Plant"],
+      "habitat": "Arid/Semi-arid",
+      "stats": {
+        "height_cm": 600,
+        "spread_cm": 400,
+        "growth_rate": "Fast",
+        "lifespan_years": 25,
+        "water_needs": "Low",
+        "sunlight": "Full Sun",
+        "toxicity": 2,
+        "rarity": 2
+      },
+      "regions": ["North Africa", "Middle East", "South Asia"],
+      "care_level": "Easy",
+      "special_traits": [
+        "Natural red-orange dye",
+        "Cooling properties",
+        "6000+ years cultural use"
+      ],
+      "companion_plants": ["Date palms", "Acacia", "Desert rose"],
+      "pests": ["Aphids", "Whitefly", "Powdery mildew"],
+      "propagation": ["Seed", "Stem cutting"],
+      "bloom": {
+        "season": "Summer-Rainy season",
+        "color": "White/Pink fragrant clusters",
+        "fragrance": "Intense sweet, jasmine-like"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Red Henna"
+      },
+      "soil_type": ["Sandy loam", "Well-draining", "Alkaline tolerant"],
+      "temperature_range": {
+        "min_celsius": 5,
+        "max_celsius": 48
+      },
+      "edible": false,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 43,
+      "name": "Horsetail",
+      "scientific_name": "Equisetum arvense",
+      "types": ["Living Fossil", "Ancient"],
+      "habitat": "Wetlands/Marshes",
+      "stats": {
+        "height_cm": 60,
+        "spread_cm": 200,
+        "growth_rate": "Aggressive",
+        "lifespan_years": 100,
+        "water_needs": "High",
+        "sunlight": "Full Sun to Partial",
+        "toxicity": 3,
+        "rarity": 1
+      },
+      "regions": ["Worldwide", "Temperate regions"],
+      "care_level": "Easy (invasive in gardens)",
+      "special_traits": [
+        "350 million year old lineage",
+        "Silica-rich stems (used as sandpaper)",
+        "Deep rhizome network"
+      ],
+      "companion_plants": ["Cattails", "Sedges", "Rushes"],
+      "pests": ["Virtually pest-free"],
+      "propagation": ["Rhizome division", "Spores"],
+      "bloom": {
+        "season": "Spring (cone-like strobili)",
+        "color": "Brown fertile stems",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Giant Horsetail"
+      },
+      "soil_type": ["Wet", "Clay", "Poorly draining", "Acidic"],
+      "temperature_range": {
+        "min_celsius": -40,
+        "max_celsius": 35
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Least Concern"
+    },
+    {
+      "id": 44,
+      "name": "Turkey Tail Mushroom",
+      "scientific_name": "Trametes versicolor",
+      "types": ["Fungi", "Medicinal"],
+      "habitat": "Deciduous Forest",
+      "stats": {
+        "height_cm": 5,
+        "spread_cm": 8,
+        "growth_rate": "Moderate",
+        "lifespan_years": 1,
+        "water_needs": "High humidity",
+        "sunlight": "None (decomposer)",
+        "toxicity": 0,
+        "rarity": 1
+      },
+      "regions": ["Worldwide", "All continents except Antarctica"],
+      "care_level": "Intermediate",
+      "special_traits": [
+        "Immune-boosting polysaccharides",
+        "Beautiful concentric rings",
+        "Most researched medicinal mushroom"
+      ],
+      "companion_plants": ["Hardwood trees", "Fallen logs"],
+      "pests": ["Beetles", "Slugs", "Mold competitors"],
+      "propagation": ["Spore print", "Tissue culture", "Plug spawn"],
+      "bloom": {
+        "season": "Year-round",
+        "color": "Multicolored bands: brown, white, blue, green",
+        "fragrance": "Mild mushroom"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Blue Turkey Tail"
+      },
+      "soil_type": ["Dead hardwood", "Stumps", "Fallen branches"],
+      "temperature_range": {
+        "min_celsius": 10,
+        "max_celsius": 28
+      },
+      "edible": true,
+      "medicinal": true,
+      "conservation_status": "Abundant"
+    },
+    {
+      "id": 45,
+      "name": "Corpse Plant",
+      "scientific_name": "Monotropa uniflora",
+      "types": ["Parasitic", "Ghost Plant"],
+      "habitat": "Deep Forest",
+      "stats": {
+        "height_cm": 25,
+        "spread_cm": 15,
+        "growth_rate": "Slow",
+        "lifespan_years": 1,
+        "water_needs": "Medium",
+        "sunlight": "None (no chlorophyll)",
+        "toxicity": 3,
+        "rarity": 6
+      },
+      "regions": ["North America", "Asia", "South America"],
+      "care_level": "Impossible (requires fungal host)",
+      "special_traits": [
+        "Pure white, ghostly appearance",
+        "No photosynthesis",
+        "Parasitizes fungi"
+      ],
+      "companion_plants": ["Russula mushrooms", "Beech trees"],
+      "pests": ["Unknown (rarely observed)"],
+      "propagation": ["Seed (requires specific fungi)"],
+      "bloom": {
+        "season": "Summer-Fall",
+        "color": "White to pale pink",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": null,
+        "next": null
+      },
+      "soil_type": ["Rich forest humus", "Fungal network dependent"],
+      "temperature_range": {
+        "min_celsius": 10,
+        "max_celsius": 25
+      },
+      "edible": false,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 46,
+      "name": "Jade Plant",
+      "scientific_name": "Crassula ovata",
+      "types": ["Succulent", "Indoor"],
+      "habitat": "Arid/Semi-arid",
+      "stats": {
+        "height_cm": 200,
+        "spread_cm": 100,
+        "growth_rate": "Slow",
+        "lifespan_years": 100,
+        "water_needs": "Very Low",
+        "sunlight": "Bright Indirect",
+        "toxicity": 3,
+        "rarity": 1
+      },
+      "regions": ["South Africa", "Mozambique", "Global houseplant"],
+      "care_level": "Beginner",
+      "special_traits": [
+        "Symbol of good luck/prosperity",
+        "Water-storing leaves",
+        "Bonsai potential"
+      ],
+      "companion_plants": ["Aloe", "Haworthia", "Echeveria"],
+      "pests": ["Mealybugs", "Scale", "Root rot"],
+      "propagation": ["Leaf cutting", "Stem cutting"],
+      "bloom": {
+        "season": "Winter (if stressed)",
+        "color": "White/Pink star flowers",
+        "fragrance": "Mild sweet"
+      },
+      "evolution": {
+        "pre": "Jade Leaf Cutting",
+        "next": "Giant Jade"
+      },
+      "soil_type": ["Cactus mix", "Gritty", "Well-draining"],
+      "temperature_range": {
+        "min_celsius": 10,
+        "max_celsius": 35
+      },
+      "edible": false,
+      "medicinal": false,
+      "conservation_status": "Not Evaluated"
+    },
+    {
+      "id": 47,
+      "name": "Banyan Tree",
+      "scientific_name": "Ficus benghalensis",
+      "types": ["Tree", "Strangler Fig"],
+      "habitat": "Tropical",
+      "stats": {
+        "height_cm": 3000,
+        "spread_cm": 10000,
+        "growth_rate": "Moderate",
+        "lifespan_years": 500,
+        "water_needs": "Medium-High",
+        "sunlight": "Full Sun",
+        "toxicity": 2,
+        "rarity": 2
+      },
+      "regions": ["India", "Southeast Asia", "Global tropics"],
+      "care_level": "Intermediate (massive size)",
+      "special_traits": [
+        "Aerial roots become trunks",
+        "Can cover acres (largest canopy)",
+        "Sacred in Hinduism/Buddhism"
+      ],
+      "companion_plants": ["None (dominates space)", "Epiphytic orchids"],
+      "pests": ["Fig wasps (beneficial pollinator)", "Scale", "Mealybugs"],
+      "propagation": ["Aerial layering", "Cutting", "Seed"],
+      "bloom": {
+        "season": "Year-round (internal flowers)",
+        "color": "Hidden inside figs",
+        "fragrance": "None"
+      },
+      "evolution": {
+        "pre": null,
+        "next": "Great Banyan"
+      },
+      "soil_type": ["Deep", "Moist", "Well-draining"],
+      "temperature_range": {
+        "min_celsius": 15,
+        "max_celsius": 40
+      },
+      "edible": false,
+      "medicinal": true,
+      "conservation_status": "Not Evaluated"
     }
   ]
 }
